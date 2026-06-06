@@ -26,7 +26,7 @@ function classificarIMC(imc: number): string {
     } else if (imc < 30) {
         return "Sobrepeso"
     } else {
-        return "Obesidade"
+        return "Obesidade tipo 1"
     }
 }
 
